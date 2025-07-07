@@ -27,7 +27,7 @@ import subprocess
 # يمكنك تعديل هذه الإعدادات حسب احتياجاتك
 
 # توكن البوت (يمكن تعيينه أيضاً كمتغير بيئة DISCORD_TOKEN)
-BOT_TOKEN = "MTM5MTgzMTQxMjY3MTUxMjczNw.GW1opy.uGis__6rISKHAq4oyAA4-6Q9CNXJFWG9wPJsD8"
+BOT_TOKEN = "MTM5MTgzMTQxMjY3MTUxMjczNw.GH7oEV.ZWxxiPQuRL746CaCmyyfBPtnb4b53-a2iQQL_U"
 
 # بادئة الأوامر
 COMMAND_PREFIX = "!"
