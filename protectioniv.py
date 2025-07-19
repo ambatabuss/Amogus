@@ -3,9 +3,11 @@ from discord.ext import commands
 import re
 from collections import defaultdict
 import asyncio
+import os
 
-# قم بتغيير هذا إلى توكن البوت الخاص بك
-TOKEN = 'YOUR_BOT_TOKEN'
+
+
+token = os.getenv("TOKEN")
 # قم بتغيير هذا إلى معرف مالك السيرفر الخاص بك
 OWNER_ID = 1003599497475133530
 
