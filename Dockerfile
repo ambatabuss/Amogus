@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY bot.py .
 
-CMD ["python3", "bot.py"]
+CMD ["python3", "protectioniv.py"]
 
 
