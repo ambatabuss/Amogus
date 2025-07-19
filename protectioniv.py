@@ -7,7 +7,7 @@ import asyncio
 # قم بتغيير هذا إلى توكن البوت الخاص بك
 TOKEN = 'YOUR_BOT_TOKEN'
 # قم بتغيير هذا إلى معرف مالك السيرفر الخاص بك
-OWNER_ID = YOUR_OWNER_ID
+OWNER_ID = 1003599497475133530
 
 # إعدادات الحالة والنشاط الافتراضية
 DEFAULT_ACTIVITY_TYPE = discord.ActivityType.playing # يمكن أن تكون playing, streaming, listening, watching
