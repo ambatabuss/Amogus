@@ -12,4 +12,4 @@ EXPOSE 8080
 
 # تمرير PORT عبر البيئة وتشغيل البوت
 ENV PORT=8080
-CMD ["sh", "-c", "python bot.py --port ${PORT}"]
+CMD ["sh", "-c", "python protectioniv.py --port ${PORT}"]
