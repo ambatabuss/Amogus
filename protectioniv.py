@@ -7,7 +7,7 @@ import os
 
 
 
-token = os.getenv("TOKEN")
+TOKEN = os.getenv("DISCORD_BOT_TOKEN")
 # قم بتغيير هذا إلى معرف مالك السيرفر الخاص بك
 OWNER_ID = 1003599497475133530
 
@@ -254,6 +254,9 @@ async def setstatus(ctx, status: str):
     await ctx.send(f"تم تغيير الحالة إلى {status}")
 
 # Run the bot
+if TOKEN is None:
+    print("Error: DISCORD_BOT_TOKEN environment variable not set.")
+    exit(1)
 bot.run(TOKEN)
 
 
