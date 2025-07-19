@@ -1,15 +1,12 @@
-FROM python:3.11-slim
+FROM python:3.11-slim-buster
 
 WORKDIR /app
 
-COPY requirements.txt ./
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+COPY bot.py .
 
-# إعلان المنفذ
-EXPOSE 8080
+CMD ["python3", "bot.py"]
 
-# تمرير PORT عبر البيئة وتشغيل البوت
-ENV PORT=8080
-CMD ["sh", "-c", "python protectioniv.py --port ${PORT}"]
+
